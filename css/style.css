@@ -12,3 +12,99 @@ a {
 li {
     list-style: none;
 }
+
+.title {
+    color: #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.txt {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.btn {
+    color: #FFF;
+    padding: 1.2rem 1.4rem;
+    border: 0.125rem solid #FF900E;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    background: #FF900E;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.btn:hover {
+    color: #FF900E;
+    border: 0.125rem solid #FF900E;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/* common css end */
+
+/* nav start */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.25rem;
+}
+
+.nav_menu {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    display: flex;
+}
+
+.nav_menu a {
+    color: #424242;
+    margin-left: 3.125rem;
+}
+/* nav end */
+
+/* banner start */
+.banner_content {
+    max-width: 53.875rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3.12rem;
+}
+
+.banner_content h1 {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner_content > p {
+    margin: 1.5rem 0;
+}
+/* banner end */
