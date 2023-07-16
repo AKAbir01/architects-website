@@ -149,11 +149,13 @@ nav h3 span {
 }
 
 .team_img {
-    /* max-width: 44.25rem;
-    gap: 1.5rem; */
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 21.375rem);
+}
+
+.team_img img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .team_txt {
