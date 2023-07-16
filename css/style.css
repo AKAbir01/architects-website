@@ -189,6 +189,48 @@ nav h3 span {
     margin-bottom: 2rem;
 }
 /* team end */
+/* features start */
+#features {
+    margin-top: 8rem;
+}
+/* features end */
+/* facts start */
+#facts {
+    margin-top: 10rem;
+}
+
+#facts .txt {
+    margin-top: 1.3rem;
+    margin-bottom: 6rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    border: 1px solid #FF900E;
+    padding: 2.8rem 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card h2 {
+    color: #424242;
+    font-size: 2.8125rem;
+    font-weight: 600;
+}
+
+.card p {
+    color: #727272;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.facts_card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/* facts end */
 /* main end */
 
 
@@ -231,7 +273,7 @@ nav h3 span {
     .nav_menu {
         margin-right: 3.125rem;
         margin-top: 20px;
-    } 
+    }
 
     .team_txt {
         padding: 1.5rem;
