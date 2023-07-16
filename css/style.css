@@ -241,7 +241,7 @@ nav h3 span {
         padding: 20px;
     }
 
-    nav, .team_main {
+    nav, .team_main, .facts_card {
         flex-direction: column;
     }
 
@@ -258,6 +258,22 @@ nav h3 span {
         padding: 1.5rem;
         text-align: center;
     }
+    .card {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        justify-content: center;
+    }
+
+    .facts_card {
+        gap: 1.5rem;
+    }
+
+    #facts {
+        padding: 1.5rem;
+        text-align: center;
+        margin-top: -2rem;
+        margin-bottom: -1rem;
+    }
 }
 
 /* medium devices */
@@ -266,7 +282,7 @@ nav h3 span {
         padding: 50px;
     }
 
-    nav, .team_main {
+    nav, .team_main, .facts_card {
         flex-direction: column;
     }
 
@@ -278,6 +294,25 @@ nav h3 span {
     .team_txt {
         padding: 1.5rem;
         text-align: center;
+    }
+
+    .card {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        justify-content: center;
+    }
+
+    .facts_card {
+        gap: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #facts {
+        padding: 1.5rem;
+        text-align: center;
+        margin-top: -2rem;
+        margin-bottom: -1rem;
     }
 }
 /* responsive media query end */
