@@ -64,6 +64,7 @@ img {
 }
 /* common css end */
 
+/* header start */
 /* nav start */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -87,9 +88,18 @@ nav {
 .nav_menu a {
     color: #424242;
     margin-left: 3.125rem;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.nav_menu a:hover {
+    color: #FF900E;
+    letter-spacing: .1rem;
 }
 /* nav end */
-
 /* banner start */
 .banner_content {
     max-width: 53.875rem;
@@ -108,3 +118,4 @@ nav {
     margin: 1.5rem 0;
 }
 /* banner end */
+/* header end */
