@@ -169,7 +169,7 @@ nav h3 span {
 }
 
 .team_main .team_txt {
-    color: var(--dark-03, #727272);
+    color: #727272;
     font-size: 2.8125rem;
     font-weight: 500;
 }
@@ -199,13 +199,22 @@ nav h3 span {
         padding: 20px;
     }
 
-    nav {
+    nav, .team_main {
         flex-direction: column;
     }
 
     .nav_menu {
         margin-right: 3.125rem;
         margin-top: 20px;
+    }
+
+    .team_img {
+        grid-template-columns: 1fr;
+    }
+
+    .team_txt {
+        padding: 1.5rem;
+        text-align: center;
     }
 }
 
@@ -215,13 +224,18 @@ nav h3 span {
         padding: 50px;
     }
 
-    nav {
+    nav, .team_main {
         flex-direction: column;
     }
 
     .nav_menu {
         margin-right: 3.125rem;
         margin-top: 20px;
+    } 
+
+    .team_txt {
+        padding: 1.5rem;
+        text-align: center;
     }
 }
 /* responsive media query end */
