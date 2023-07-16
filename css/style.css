@@ -35,6 +35,11 @@ img {
     line-height: 1.625rem;
 }
 
+.features_card {
+    padding: 1.88rem 2.62rem 1.88rem 1.88rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .btn {
     color: #FFF;
     padding: 1.2rem 1.4rem;
@@ -193,10 +198,77 @@ nav h3 span {
 #features {
     margin-top: 8rem;
 }
+
+.features_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_txt {
+    padding: 2rem 0 2rem 0;
+}
+
+.features_main .main {
+    margin-top: 1.5rem;
+    margin-bottom: 1.88rem;
+}
+
+.features_card {
+    margin-bottom: 1.25rem;
+}
+
+.features_card h4 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.features_card p {
+    margin-top: .6rem;
+}
+
+.features_txt h3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features_img h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4.0625rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+
+.features_img img {
+    width: 44.25rem;
+}
+
+.features_img p {
+    color: #FFF;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.ten {
+    background-color: #FF900E;
+    text-align: center;
+    padding: 2.88rem 2.63rem 2.81rem 2.63rem;
+    width: 21.375rem;
+    position: relative;
+    bottom: 8rem;
+    right: 5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
 /* features end */
 /* facts start */
 #facts {
-    margin-top: 10rem;
+    margin-top: 4rem;
 }
 
 #facts .txt {
@@ -219,8 +291,6 @@ nav h3 span {
 
 .card p {
     color: #727272;
-    margin-top: 0.6rem;
-    margin-bottom: 0.6rem;
     font-size: 1.25rem;
     font-weight: 600;
 }
@@ -231,6 +301,27 @@ nav h3 span {
     text-align: center;
 }
 /* facts end */
+
+/* sponspors start */
+#sponspors {
+    margin-top: 11.26rem;
+    margin-bottom: 8.13rem;
+}
+.spons_img ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.12rem;
+}
+
+.spons_txt {
+    text-align: center;
+}
+
+.spons_txt h3 {
+    margin-bottom: 1.5rem;
+}
+/* sponspors end */
 /* main end */
 
 
@@ -241,7 +332,7 @@ nav h3 span {
         padding: 20px;
     }
 
-    nav, .team_main, .facts_card {
+    nav, .team_main, .facts_card, .spons_img ul {
         flex-direction: column;
     }
 
@@ -254,7 +345,7 @@ nav h3 span {
         grid-template-columns: 1fr;
     }
 
-    .team_txt {
+    .team_txt, .spons_txt {
         padding: 1.5rem;
         text-align: center;
     }
@@ -274,6 +365,10 @@ nav h3 span {
         margin-top: -2rem;
         margin-bottom: -1rem;
     }
+
+    .spons_img ul {
+        gap: 1.8rem;
+    }
 }
 
 /* medium devices */
@@ -282,7 +377,7 @@ nav h3 span {
         padding: 50px;
     }
 
-    nav, .team_main, .facts_card {
+    nav, .team_main, .facts_card, .spons_img ul {
         flex-direction: column;
     }
 
@@ -313,6 +408,10 @@ nav h3 span {
         text-align: center;
         margin-top: -2rem;
         margin-bottom: -1rem;
+    }
+
+    .spons_img ul {
+        gap: 1.8rem;
     }
 }
 /* responsive media query end */
