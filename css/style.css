@@ -34,6 +34,7 @@ img {
     color: #FFF;
     padding: 1.2rem 1.4rem;
     border: 0.125rem solid #FF900E;
+    cursor: pointer;
     text-align: center;
     font-size: 1.25rem;
     font-weight: 600;
@@ -76,6 +77,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6.25rem;
+}
+
+nav > h3 {
+    cursor: pointer;
 }
 
 .nav_menu {
